@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.container>* {
+  flex: 1 1 33%;
+}
+
+.container>div:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+@media all and (min-width: 1540px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .container>* {
+    flex: 1 1 33%;
+  }
+
+  .container>div:not(:last-child) {
+    margin-right: 32px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  max-width: 510px;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.container > ul {
+  margin-top: 25px;
+}
+
+.container > ul >li:first-child > span:first-child {
+  background-color: hsla(0, 100%, 50%, 0.56);
+}
+
+.buisnessName {
+  max-width: 370px;
+  padding: 19px 0 19px 15px;
+  background-color: var(--greyF4);
+  color: var(--grey99);
+  border-style: none;
+  margin-bottom: 25px;
+}
+
+.buisnessName:focus {
+  outline-color: var(--green);
+}
+
+.buisnessRange {
+  margin-bottom: 10px;
+  max-width: 75%;
+}
+
+.timeRange {
+  margin-bottom: 30px;
+}
+

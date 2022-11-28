@@ -1,0 +1,18 @@
+.container {
+  max-width: 510px;
+
+}
+
+.item {
+  font-size: 16px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.item::before {
+  content: '•';
+  color: var(--redDark);
+  padding-right: 15px;
+}

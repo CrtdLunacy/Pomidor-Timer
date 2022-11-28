@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "SF-Black";
+  src: local("SF-Black"),
+   url("./fonts/SF/sf-ui-display-black-58646a6b80d5a.woff") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SF-Bold";
+  src: local("SF-Bold"),
+   url("./fonts/SF/sf-ui-display-bold-58646a511e3d9.woff") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SF-Light";
+  src: local("SF-Light"),
+   url("./fonts/SF/sf-ui-display-light-58646b33e0551.woff") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SF-Normal";
+  src: local("SF-Normal"),
+   url("./fonts/SF/sf-ui-display-medium-58646be638f96.woff") format("truetype");
+  font-weight: 400;
+}
+
+:root {
+  --black:          #333333;
+  --red:            #DC3E22;
+  --redDark:        #B7280F;
+  --green:          #A8B64F;
+  --greenDark:      #899441;
+  --orange:         #EE735D;
+  --orangeLight:    #EA8979;
+  --whiteLightness: 100%;
+  --white:          hsl(0, 0%, var(--whiteLightness));
+  --greyF4:         hsl(0, 0%, calc(var(--whiteLightness) - 4%));
+  --greyE4:         hsl(0, 0%, calc(var(--whiteLightness) - 10%));
+  --greyC4:         hsl(0, 0%, calc(var(--whiteLightness) - 23%));
+  --grey99:         hsl(0, 0%, calc(var(--whiteLightness) - 40%));
+}
+
+html {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: 'SF-Normal';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.recharts-surface {
+  background-color: var(--greyF4);
+}

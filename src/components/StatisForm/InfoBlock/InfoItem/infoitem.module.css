@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.infotitle {
+  font-family: 'SF-Bold';
+  font-size: 24px;
+}
+
+.infodata {
+  font-size: 64px;
+}

@@ -1,0 +1,32 @@
+.title {
+  display: none;
+}
+
+.logo {
+  padding: 0 10px;
+}
+
+@media all and (min-width: 1540px) {
+  .container > a {
+    display: flex;
+    align-items: center;
+  }
+
+  .container > a:hover > .logo path,
+  .container > a:hover > .title {
+    fill: var(--redDark);
+    color: var(--redDark);
+  }
+
+  .logo {
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  .title {
+    display: inline;
+    align-self: center;
+    font-size: 16px;
+    color: var(--red);
+  }
+}

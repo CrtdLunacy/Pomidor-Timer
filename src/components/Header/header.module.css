@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+  padding: 0 10px;
+}
+
+@media all and (min-width: 1540px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+    padding: 0 80px;
+  }
+}

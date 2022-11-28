@@ -1,0 +1,30 @@
+.container__home {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.container__about {
+  max-width: 1920px;
+  padding: 0 10px;
+}
+
+@media all and (min-width: 1540px) {
+  .container__home {
+    margin: 0 80px;
+    margin-top: 100px;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container__about {
+    margin: 0 80px;
+    max-width: 1920px;
+  }
+
+  .home_left,
+  .home_right {
+    flex: 1 0 50%;
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+}
+
+.wrapper__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.recharts-wrapper {
+  flex: 1 1 80% !important;
+}
+
+@media all and (min-width: 1540px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+  }
+
+  .wrapper__info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .recharts-wrapper {
+    flex: 1 1 80% !important;
+  }
+}

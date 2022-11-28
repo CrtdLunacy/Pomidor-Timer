@@ -1,0 +1,39 @@
+.item {
+  padding: 19px 0;
+  border-top: 1px solid var(--greyE4);
+  border-bottom: 1px solid var(--greyE4);
+  display: flex;
+  align-items: center;
+}
+
+.item > p {
+  margin: 0;
+  font-family: 'SF-Light';
+}
+
+.item > input {
+  flex: 1 1 0;
+}
+
+.item > span {
+  cursor: pointer;
+}
+
+.item:first-child > span:first-child {
+  cursor: default;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu:hover > svg circle {
+  fill: var(--greenDark);
+}
+
+.count {
+  border: 1px solid var(--greyC4);
+  padding: 5px 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
